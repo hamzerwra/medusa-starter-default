@@ -13,4 +13,7 @@ module.exports = defineConfig({
       cookieSecret: process.env.COOKIE_SECRET || "supersecret",
     }
   }
+ modules: {
+    // 🚫 This disables all optional modules (like workflows)
+  }
 })
