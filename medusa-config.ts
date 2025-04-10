@@ -13,9 +13,7 @@ export default defineConfig({
       cookieSecret: process.env.COOKIE_SECRET || "supersecret",
     },
   },
-  modules: {
-    // disable crashing modules like workflows
-  },
+  modules:{},
 })
 
 
